@@ -1,0 +1,23 @@
+div {
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+
+@media(max-width:992px) {
+    div {
+        font-size: 36px
+    }
+}
+
+@media(max-width:768px) {
+    div {
+        font-size: 24px
+    }
+}
+
+@media(max-width: 576px) {
+    div {
+        font-size: 16px;
+    }
+}

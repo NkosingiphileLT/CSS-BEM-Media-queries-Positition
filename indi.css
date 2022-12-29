@@ -1,0 +1,25 @@
+div:hover{
+ background-color: rgba(0,0,0,0.5);   
+}
+div{
+     transition: background-color 300ms;
+}
+button:hover{
+    background-color: rgba(0,0,0,0.5);
+    transition:background-color 300ms;
+
+}
+button{ 
+    animation: float 100ms infinite alternate-reverse;
+    transform: translateY(10px);
+
+}
+
+@keyframes float {
+    0%{
+transform: translateY(0);
+    }
+    100%{
+transform: translateY(10px);
+    }
+}

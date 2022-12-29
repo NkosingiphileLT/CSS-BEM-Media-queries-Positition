@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    border: 1px solid black;
+}
+.blue{
+    background-color: blue;
+    position:sticky;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
